@@ -3,8 +3,14 @@ import 'package:flutter/material.dart';
 class FODTextFieldWidget extends StatefulWidget {
   final String labelText;
   final bool isObscureText;
+  final String? Function(String?)? validator;
+  final TextEditingController? controller;
   const FODTextFieldWidget(
-      {super.key, required this.labelText, this.isObscureText = false});
+      {super.key,
+      required this.labelText,
+      this.isObscureText = false,
+      this.controller,
+      this.validator});
 
   @override
   State<FODTextFieldWidget> createState() => _FODTextFieldWidgetState();
@@ -23,7 +29,8 @@ class _FODTextFieldWidgetState extends State<FODTextFieldWidget> {
   Widget build(BuildContext context) {
     return Padding(
         padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
-        child: TextField(
+        child: TextFormField(
+          controller: widget.controller,
           style: const TextStyle(fontSize: 14),
           decoration: InputDecoration(
               contentPadding: const EdgeInsets.all(14),
@@ -60,6 +67,7 @@ class _FODTextFieldWidgetState extends State<FODTextFieldWidget> {
                     )
                   : const SizedBox()),
           obscureText: isObscureText,
+          validator: widget.validator,
         ));
   }
 }

@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 class FODAuthButton extends StatefulWidget {
   final String text;
-  const FODAuthButton({super.key, required this.text});
+  final Function()? onTap;
+  const FODAuthButton({super.key, required this.text, this.onTap});
 
   @override
   State<FODAuthButton> createState() => _FODAuthButtonState();
@@ -17,7 +18,7 @@ class _FODAuthButtonState extends State<FODAuthButton> {
         color: Colors.redAccent,
         borderRadius: BorderRadius.circular(8),
         child: InkWell(
-          onTap: () {},
+          onTap: widget.onTap ?? () {},
           borderRadius: BorderRadius.circular(8),
           child: Container(
             width: MediaQuery.of(context).size.width,
