@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:fodery/modules/core/routes/app_routes.dart';
 import 'package:fodery/modules/core/ui/wrapper/screen_wrapper.dart';
 import 'package:fodery/modules/food/data/models/food_model.dart';
-import 'package:fodery/modules/home/presentation/widgets/food_card.dart';
-import 'package:fodery/modules/home/presentation/widgets/restaurant_card.dart';
-import 'package:fodery/modules/home/presentation/widgets/search_widget.dart';
+import 'package:fodery/modules/food/presentation/widgets/food_card.dart';
+import 'package:fodery/modules/restaurant/presentation/widgets/restaurant_card.dart';
+import 'package:fodery/modules/home/presentation/widgets/home_search_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -16,6 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return ScreenWrapper(
+        route: HOME_ROUTE,
         appBar: AppBar(
           backgroundColor: Colors.white,
           elevation: 1,

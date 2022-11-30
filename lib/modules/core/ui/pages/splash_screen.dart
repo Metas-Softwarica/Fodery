@@ -16,7 +16,7 @@ class SplashScreen extends StatelessWidget {
       child: BlocListener<AuthcheckBloc, AuthcheckState>(
         listener: (context, state) {
           if (state is Authenticated) {
-            context.vRouter.toNamed(HOME_ROUTE);
+            context.vRouter.toNamed(SEARCH_ROUTE);
           } else {
             context.vRouter.toNamed(LOGIN_ROUTE);
           }

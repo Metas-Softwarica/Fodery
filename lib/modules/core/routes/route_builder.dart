@@ -3,6 +3,7 @@ import 'package:fodery/modules/authentication/presentation/pages/register_screen
 import 'package:fodery/modules/core/ui/pages/splash_screen.dart';
 import 'package:fodery/modules/food/presentation/pages/food_detail_page.dart';
 import 'package:fodery/modules/home/presentation/pages/home_screen.dart';
+import 'package:fodery/modules/search/presentation/pages/search_screen.dart';
 import 'package:vrouter/vrouter.dart';
 
 import '../../authentication/presentation/pages/login_screen.dart';
@@ -48,6 +49,15 @@ List<VRouteElement> buildRoutes(BuildContext context) {
             ),
         widget: const HomeScreen()),
     VWidget(
+        path: SEARCH_ROUTE,
+        name: SEARCH_ROUTE,
+        buildTransition: (animation, secondaryAnimation, child) =>
+            FadeTransition(
+              opacity: animation,
+              child: child,
+            ),
+        widget: const SearchScreen()),
+    VWidget(
         path: FOOD_DETAIL_ROUTE,
         name: FOOD_DETAIL_ROUTE,
         buildTransition: (animation, secondaryAnimation, child) =>
@@ -58,6 +68,7 @@ List<VRouteElement> buildRoutes(BuildContext context) {
         widget: const FoodDetailScreen()),
     VWidget(
       path: "*",
+      name: "*",
       buildTransition: (animation, secondaryAnimation, child) => FadeTransition(
         opacity: animation,
         child: child,
