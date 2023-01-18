@@ -1,0 +1,6 @@
+<svg id="checkmark" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <g id="checkmark-circle-2">
+        <rect id="Rectangle_228" data-name="Rectangle 228" width="20" height="20" opacity="0"/>
+        <path id="Path_315" data-name="Path 315" d="M10.195,2a8.195,8.195,0,1,0,8.195,8.195A8.195,8.195,0,0,0,10.195,2Zm3.524,6.236L9.973,13.153a.822.822,0,0,1-1.295.008l-2-2.549A.82.82,0,1,1,7.974,9.6l1.336,1.7,3.1-4.1a.824.824,0,0,1,1.311,1Z" transform="translate(-0.361 -0.361)"/>
+    </g>
+</svg>

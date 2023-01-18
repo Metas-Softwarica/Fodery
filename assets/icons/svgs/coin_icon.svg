@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.125" height="20.625" viewBox="0 0 19.125 20.625">
+  <defs>
+    <filter id="Ellipse_49">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="35" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_296" x="0" y="0" width="19.125" height="20.625" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="coin_icon" transform="translate(-12673.437 -4414.688)">
+    <circle id="Ellipse_47" data-name="Ellipse 47" cx="6" cy="6" r="6" transform="translate(12676 4417)" fill="#ffca44"/>
+    <circle id="Ellipse_48" data-name="Ellipse 48" cx="5" cy="5" r="5" transform="translate(12677 4418)" fill="#fec842"/>
+    <g data-type="innerShadowGroup">
+      <circle id="Ellipse_49-2" data-name="Ellipse 49" cx="5" cy="5" r="5" transform="translate(12677 4418)" fill="#fe992d"/>
+      <g transform="matrix(1, 0, 0, 1, 12673.44, 4414.69)" filter="url(#Ellipse_49)">
+        <circle id="Ellipse_49-3" data-name="Ellipse 49" cx="5" cy="5" r="5" transform="translate(3.56 3.31)"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 12673.44, 4414.69)" filter="url(#Path_296)">
+      <path id="Path_296-2" data-name="Path 296" d="M7.653-55.873c0-1.838-2.7-1.408-2.7-2.363a.485.485,0,0,1,.56-.5.593.593,0,0,1,.63.571h1.44c-.054-1.048-.856-1.643-2.047-1.643-1.144,0-1.992.579-1.992,1.619-.016,1.948,2.716,1.4,2.716,2.417,0,.321-.249.516-.638.516a.628.628,0,0,1-.677-.626H3.528c.039,1.111.957,1.7,2.133,1.7A1.762,1.762,0,0,0,7.653-55.873Z" transform="translate(2.97 65.31)" fill="#f8c649"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+{
+    "expo": {
+        "name": "Fodery",
+        "slug": "fodery",
+        "scheme": "fodery",
+        "icon": "./assets/app_icon.png",
+        "version": "1.0.7",
+        "orientation": "portrait",
+        "userInterfaceStyle": "automatic",
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "description": "",
+        "android": {
+            "versionCode": 8,
+            "package": "com.suzan.fodery",
+            "config": {
+                "googleMaps": {
+                    "apiKey": "AIzaSyCfXgrEm6hz5TRQxICBi7Ac11bM4tK3XZw"
+                }
+            },
+            "permissions": [
+                "ACCESS_FINE_LOCATION",
+                "ACCESS_COARSE_LOCATION"
+            ]
+        },
+        "ios": {
+            "bundleIdentifier": "com.suzan.fodery",
+            "config": {
+                "googleMapsApiKey": "AIzaSyCXkmiv1Prs8r0x-DSKNz1_6FO-KTXxtWs"
+            }
+        },
+        "splash": {
+            "image": "./assets/splash_screen.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#242829"
+        },
+        "packagerOpts": {
+            "config": "metro.config.js",
+            "sourceExts": [
+                "expo.ts",
+                "expo.tsx",
+                "expo.js",
+                "expo.jsx",
+                "ts",
+                "tsx",
+                "js",
+                "jsx",
+                "json",
+                "wasm",
+                "svg"
+            ]
+        },
+        "plugins": [
+            [
+                "expo-image-picker",
+                {
+                    "photosPermission": "The app accesses your photos to let you share them with your friends."
+                }
+            ]
+        ]
+    }
+}

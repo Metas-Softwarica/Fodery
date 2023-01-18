@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "775708763500",
+    "project_id": "sweedapp4780",
+    "storage_bucket": "sweedapp4780.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775708763500:android:a62db5ec7b056ae3ef7f49",
+        "android_client_info": {
+          "package_name": "com.kurma.sweed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775708763500-goh48rej4l6jbble2nq8sosp857tvoh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDraZDaMzHiCya4RVKn_wX40gm2mZcjbN0"
+        },
+        {
+          "current_key": "AIzaSyCe0Bq9vrrvSgTeNsH4LGeyqrymt1wZMac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775708763500-goh48rej4l6jbble2nq8sosp857tvoh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775708763500:android:38c39a9f3e0213c6ef7f49",
+        "android_client_info": {
+          "package_name": "com.souvikbiswas.flutterfire_samples"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775708763500-goh48rej4l6jbble2nq8sosp857tvoh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDraZDaMzHiCya4RVKn_wX40gm2mZcjbN0"
+        },
+        {
+          "current_key": "AIzaSyCe0Bq9vrrvSgTeNsH4LGeyqrymt1wZMac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775708763500-goh48rej4l6jbble2nq8sosp857tvoh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775708763500:android:6ee3eb240f2d7a74ef7f49",
+        "android_client_info": {
+          "package_name": "com.sweed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775708763500-cm04apkos2c0ddvqq9j387147gfeogpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sweed",
+            "certificate_hash": "ff59c407a5564c0b654565660586cb6fd83120d4"
+          }
+        },
+        {
+          "client_id": "775708763500-goh48rej4l6jbble2nq8sosp857tvoh5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDraZDaMzHiCya4RVKn_wX40gm2mZcjbN0"
+        },
+        {
+          "current_key": "AIzaSyCe0Bq9vrrvSgTeNsH4LGeyqrymt1wZMac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775708763500-goh48rej4l6jbble2nq8sosp857tvoh5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

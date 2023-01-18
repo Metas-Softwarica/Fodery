@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <g id="check_dark_green" transform="translate(2 2)">
+    <path id="Path_437" data-name="Path 437" d="M5,0A5,5,0,1,1,0,5,5,5,0,0,1,5,0Z" transform="translate(-2 -2)" fill="#000"/>
+    <path id="Fill_4" data-name="Fill 4" d="M1.557,3.113a.418.418,0,0,1-.3-.123L.123,1.853A.419.419,0,0,1,.716,1.26l.841.841L3.535.123a.419.419,0,0,1,.593.593L1.853,2.99a.418.418,0,0,1-.3.123" transform="translate(0.875 1.443)" fill="#FF6F67"/>
+  </g>
+</svg>
